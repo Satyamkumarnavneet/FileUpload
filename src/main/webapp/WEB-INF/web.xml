@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+
+    <servlet>
+        <servlet-name>FileUpload</servlet-name>
+        <display-name>FileUpload</display-name>
+        <description></description>
+        <servlet-class>org.example.servlets_jsp.FileUpload</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>FileUpload</servlet-name>
+        <url-pattern>/upload</url-pattern>
+    </servlet-mapping>
+
+</web-app>
